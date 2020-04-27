@@ -2,6 +2,17 @@ body {
     background: black;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Lobster', cursive;
+}
+
+p,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     max-width: 960;
     margin-left: auto;
@@ -109,4 +120,9 @@ button {
     font-size: 16px;
     border: none;
     color: white;
+}
+
+button:hover {
+    background: rgb(224, 105, 2, 0.5);
+    color: black;
 }
