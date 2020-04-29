@@ -14,7 +14,7 @@ li {
 }
 
 header {
-    max-width: 960;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     background: black;
@@ -125,4 +125,19 @@ button {
 button:hover {
     background: rgb(224, 105, 2, 0.5);
     color: black;
+}
+
+#vote {
+    text-align: center;
+    background: white;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: dashed 4px black;
+    padding: 5px 40px;
+    margin-bottom: 20px;
+}
+
+#favSong {
+    color: red;
 }
