@@ -151,3 +151,8 @@ button:hover {
     padding: 5px 40px;
     margin-bottom: 20px;
 }
+
+#songNum {
+    font-size: 20px;
+    color: yellow;
+}

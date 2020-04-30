@@ -57,14 +57,11 @@ function listSongs() {
         numSongs = prompt("How many famous songs should I list? (1 to 50)");
     } while (numSongs<1 || numSongs>50 || !Number.isInteger(+numSongs));
     for (i=0; i<numSongs; i++) {
-        displayList += songList[i] + "<br>";
+        displayList += (i+1) + "... " + songList[i] + "<br>";
     }
     document.getElementById("favSongList").innerHTML = displayList;
+    document.getElementById("songNum").innerHTML = numSongs;
 }
-
-
-
-
 
 
 function setTicketButton() {
